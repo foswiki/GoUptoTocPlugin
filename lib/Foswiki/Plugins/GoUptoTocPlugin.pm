@@ -36,7 +36,7 @@ $VERSION = '$Rev: 12445$';
 # This is a free-form string you can use to "name" your own plugin version.
 # It is *not* used by the build automation tools, but is reported as part
 # of the version number in PLUGINDESCRIPTIONS.
-$RELEASE = 'Foswiki 1.0';
+$RELEASE = '0.2.1';
 
 # Short description of this plugin
 # One line description, is shown in the %FoswikiWEB%.TextFormattingRules topic:
@@ -58,7 +58,7 @@ sub preRenderingHandler {
     
     if( $_[0] =~ /.*a name="foswikiTOC".*/ ) {
     	my $name = $Foswiki::cfg{Plugins}{GoUptoTocPlugin}{LinkName};    	
-	    $_[0] =~ s/(---[+]{1,4}\s+)(.*)/---$1$2 <a href="#foswikiTOC" class="GouptoTocLink" style="font-size:12px;text-decoration:none;color:blue">$name<\/a>/mgi;
+	    $_[0] =~ s/(---[+]{1,4}\s+)(.*)/---$1$2 <a href="#foswikiTOC" class="GouptoTocLink" title="Click to scroll up to the table of contents" style="font-size:12px;text-decoration:none;color:blue">$name<\/a>/mgi;
     }
 }
 1;
