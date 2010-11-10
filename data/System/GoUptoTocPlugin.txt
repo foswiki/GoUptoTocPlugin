@@ -11,33 +11,20 @@ Adds a arrow to each header, which lets you jump up the TOC  anchor
 ---+++ Configuration
    * Use the Configuration Center ( bin/configure ) to set the link name. That name is appended to each header, when you click it, it jumps up to the table of contents. Default is the arrow &uarr;
       * $Foswiki::cfg{Plugins}{GoUptoTocPlugin}{LinkName}
+
 __Note:__ You do not need to install anything on the browser to use this Plugin. The following instructions are for the administrator who installs the Plugin on the server where Foswiki is running.
 
-
-
-|  Plugin Author: | Foswiki:Main.EugenMayer |
+---++ Plugin Info
+|  Author(s): | Foswiki:Main.EugenMayer |
 |  Copyright: | &copy; Collaborganize ( www.collaborganize.com ) |
 |  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
-|  Plugin Version: | 11 Dez 2008 (V0.2.1) |
-|  Change History: | <!-- versions below in reverse order --> |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
+|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  10 Nov 2010: | Fix Config.spec  a title to the Toc-Links |
 |  14 Dez 2008: | added a title to the Toc-Links |
 |  11 Dez 2008: | Rebranded Foswiki |
 |  01 Dez 2007: | Initial version for TWiki |
-|  Foswiki Dependency: | |
-|  CPAN Dependencies: | |
-|  Other Dependencies: | |
-|  Perl Version: | 5.005 |
-|  Add-on Home: | http://foswiki.org/Extensions/%TOPIC% |
-|  Feedback: | http://foswiki.org/Extensions/%TOPIC%Dev |
-|  Appraisal: | http://foswiki.org/Extensions/%TOPIC%Appraisal |
- __Related Topic:__
-
--- Foswiki:Main/EugenMayer - 11 Dez 2008
-
-%META:FORM{name="PackageForm"}%
-%META:FIELD{name="ExtensionClassification" attributes="" title="ExtensionClassification" value="Interface and Visualisation"}%
-%META:FIELD{name="ExtensionType" attributes="" title="ExtensionType" value="PluginPackage"}%
-%META:FIELD{name="Compatibility" attributes="" title="[[Compatibility]]" value=""}%
-%META:FIELD{name="DemoUrl" attributes="" title="DemoUrl" value="http://"}%
-%META:FIELD{name="DevelopedInSVN" attributes="" title="DevelopedInSVN" value="Yes"}%
-%META:FIELD{name="ModificationPolicy" attributes="" title="ModificationPolicy" value="PleaseFeelFreeToModify"}%
+|  Dependencies: | %$DEPENDENCIES% |
+|  Home: | Foswiki:Extensions/%TOPIC% |
+|  Support: | Foswiki:Support/%TOPIC% |
