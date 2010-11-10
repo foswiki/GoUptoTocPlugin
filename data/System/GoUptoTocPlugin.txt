@@ -21,7 +21,7 @@ __Note:__ You do not need to install anything on the browser to use this Plugin.
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
-|  10 Nov 2010: | Fix Config.spec  a title to the Toc-Links |
+|  10 Nov 2010: | Foswikitask:Item9992 - Fix Config.spec |
 |  14 Dez 2008: | added a title to the Toc-Links |
 |  11 Dez 2008: | Rebranded Foswiki |
 |  01 Dez 2007: | Initial version for TWiki |
